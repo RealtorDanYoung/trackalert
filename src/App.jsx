@@ -96,7 +96,7 @@ export default function App() {
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/dark-v11',
       center: [-112.0740, 33.4484],
-      zoom: 10,
+      zoom: 9,
       attributionControl: false,
     });
 
