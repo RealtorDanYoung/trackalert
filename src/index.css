@@ -94,7 +94,7 @@ select { font-family: inherit; }
 .toast.show { opacity: 1; }
 
 /* Map markers */
-.crossing-marker { width: 16px; height: 16px; border-radius: 50%; border: 1.5px solid #0d0f14; cursor: pointer; transition: transform 0.15s; }
+.crossing-marker { width: 10px; height: 10px; border-radius: 50%; border: 1.5px solid #0d0f14; cursor: pointer; transition: transform 0.15s; }
 .crossing-marker:hover { transform: scale(1.6); }
 .marker-clear { background: var(--green); }
 .marker-blocked { background: var(--red-bright); box-shadow: 0 0 8px rgba(226,75,74,0.7); }
