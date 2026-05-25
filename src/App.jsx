@@ -149,7 +149,7 @@ export default function App() {
         markersRef.current[c.id] = marker;
       });
 
-      setMapLoaded(true);
+      setMapLoaded(true); setTimeout(() => map.resize(), 100);
     });
 
     mapRef.current = map;
