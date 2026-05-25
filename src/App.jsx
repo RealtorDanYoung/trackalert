@@ -149,7 +149,7 @@ export default function App() {
         markersRef.current[c.id] = marker;
       });
 
-      setMapLoaded(true); setTimeout(() => map.resize(), 100);
+      setMapLoaded(true); setTimeout(() => { map.resize(); const src = map.getSource("crossings"); if (src) src.setData(src._data); }, 200);
     });
 
     mapRef.current = map;
