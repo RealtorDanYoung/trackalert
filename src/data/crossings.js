@@ -10,7 +10,6 @@ export const RAIL_LINES = [
   { corridor: "UP",   coordinates: [[-112.0750,33.5800],[-112.0789,33.4442],[-112.0700,33.3900],[-112.0400,33.3650],[-111.9200,33.3648],[-111.8028,33.3648],[-111.7760,33.3648]] },
 ];
 export const CROSSINGS = [
-  { id:1279, fraId:"741580N", name:"Chandler Boulevard Crossing", road:"Chandler Boulevard, Chandler", city:"Chandler", corridor:"UP", lat:33.305284, lng:-111.960277, notes:"Union Pacific Railroad Company" },
   { id:1377, fraId:"978843H", name:"Hatcher Rd Crossing", road:"Hatcher Rd, Glendale", city:"Glendale", corridor:"OTHER", lat:33.56972, lng:-112.384297, notes:"None" },
   { id:1381, fraId:"741809T", name:"67Th Avenue Crossing", road:"67Th Avenue, Phoenix", city:"Phoenix", corridor:"UP", lat:33.44441, lng:-112.203576, notes:"Union Pacific Railroad Company" },
   { id:1420, fraId:"741573D", name:"Guadalupe Road Crossing", road:"Guadalupe Road, Tempe", city:"Tempe", corridor:"UP", lat:33.363676, lng:-111.943436, notes:"Union Pacific Railroad Company" },
@@ -109,7 +108,6 @@ export const CROSSINGS = [
   { id:1568, fraId:"741816D", name:"North Cooper Road Crossing", road:"North Cooper Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.363601, lng:-111.80709, notes:"Union Pacific Railroad Company" },
   { id:1572, fraId:"741471K", name:"2Nd Avenue Crossing", road:"2Nd Avenue, Phoenix", city:"Phoenix", corridor:"UP", lat:33.444173, lng:-112.076375, notes:"Union Pacific Railroad Company" },
   { id:1573, fraId:"741808L", name:"75Th Avenue Crossing", road:"75Th Avenue, Tolleson", city:"Tolleson", corridor:"UP", lat:33.444377, lng:-112.221162, notes:"Union Pacific Railroad Company" },
-  { id:1576, fraId:"741830Y", name:"South Higley Road Crossing", road:"South Higley Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.310247, lng:-111.721131, notes:"Union Pacific Railroad Company" },
   { id:1578, fraId:"741802V", name:"99Th Avenue Crossing", road:"99Th Avenue, Tolleson", city:"Tolleson", corridor:"UP", lat:33.442983, lng:-112.272415, notes:"Union Pacific Railroad Company" },
   { id:1584, fraId:"741454U", name:"I 17 Northbound Frontage Crossing", road:"I 17 Northbound Frontage, Phoenix", city:"Phoenix", corridor:"UP", lat:33.443896, lng:-112.107738, notes:"Union Pacific Railroad Company" },
   { id:1591, fraId:"741466N", name:"3Rd Avenue Crossing", road:"3Rd Avenue, Phoenix", city:"Phoenix", corridor:"UP", lat:33.443898, lng:-112.07768, notes:"Union Pacific Railroad Company" },
