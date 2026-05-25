@@ -10,11 +10,9 @@ export const RAIL_LINES = [
   { corridor: "UP",   coordinates: [[-112.0750,33.5800],[-112.0789,33.4442],[-112.0700,33.3900],[-112.0400,33.3650],[-111.9200,33.3648],[-111.8028,33.3648],[-111.7760,33.3648]] },
 ];
 export const CROSSINGS = [
-  { id:1025, fraId:"741582C", name:"Willis Road Crossing", road:"Willis Road, Chandler", city:"Chandler", corridor:"UP", lat:33.284556, lng:-111.957163, notes:"Union Pacific Railroad Company" },
   { id:1279, fraId:"741580N", name:"Chandler Boulevard Crossing", road:"Chandler Boulevard, Chandler", city:"Chandler", corridor:"UP", lat:33.305284, lng:-111.960277, notes:"Union Pacific Railroad Company" },
   { id:1377, fraId:"978843H", name:"Hatcher Rd Crossing", road:"Hatcher Rd, Glendale", city:"Glendale", corridor:"OTHER", lat:33.56972, lng:-112.384297, notes:"None" },
   { id:1381, fraId:"741809T", name:"67Th Avenue Crossing", road:"67Th Avenue, Phoenix", city:"Phoenix", corridor:"UP", lat:33.44441, lng:-112.203576, notes:"Union Pacific Railroad Company" },
-  { id:1418, fraId:"748747W", name:"Sundust Road Crossing", road:"Sundust Road, Chandler", city:"Chandler", corridor:"UP", lat:33.280925, lng:-111.957161, notes:"Union Pacific Railroad Company" },
   { id:1420, fraId:"741573D", name:"Guadalupe Road Crossing", road:"Guadalupe Road, Tempe", city:"Tempe", corridor:"UP", lat:33.363676, lng:-111.943436, notes:"Union Pacific Railroad Company" },
   { id:1422, fraId:"741657Y", name:"Broadway Road Crossing", road:"Broadway Road, Mesa", city:"Mesa", corridor:"UP", lat:33.407842, lng:-111.831937, notes:"Union Pacific Railroad Company" },
   { id:1424, fraId:"741578M", name:"Warner Road Crossing", road:"Warner Road, Tempe", city:"Tempe", corridor:"UP", lat:33.334591, lng:-111.950565, notes:"Union Pacific Railroad Company" },
@@ -94,7 +92,6 @@ export const CROSSINGS = [
   { id:1518, fraId:"741563X", name:"10Th Street Crossing", road:"10Th Street, Tempe", city:"Tempe", corridor:"UP", lat:33.418973, lng:-111.943552, notes:"Union Pacific Railroad Company" },
   { id:1519, fraId:"748176E", name:"Sr 101 Frontage North Crossing", road:"Sr 101 Frontage North, Tempe", city:"Tempe", corridor:"UP", lat:33.411134, lng:-111.890481, notes:"Union Pacific Railroad Company" },
   { id:1520, fraId:"741561J", name:"West 5Th Street Crossing", road:"West 5Th Street, Tempe", city:"Tempe", corridor:"UP", lat:33.425484, lng:-111.943564, notes:"Union Pacific Railroad Company" },
-  { id:1521, fraId:"741833U", name:"South Power Road And East Pecos Road Crossing", road:"South Power Road And East Pecos Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.288694, lng:-111.68643, notes:"Union Pacific Railroad Company" },
   { id:1522, fraId:"741659M", name:"Southern Avenue Crossing", road:"Southern Avenue, Mesa", city:"Mesa", corridor:"UP", lat:33.393332, lng:-111.831687, notes:"Union Pacific Railroad Company" },
   { id:1523, fraId:"741560C", name:"University Drive Crossing", road:"University Drive, Tempe", city:"Tempe", corridor:"UP", lat:33.4219, lng:-111.943578, notes:"Union Pacific Railroad Company" },
   { id:1524, fraId:"741645E", name:"Rural Road Crossing", road:"Rural Road, Tempe", city:"Tempe", corridor:"UP", lat:33.410951, lng:-111.926273, notes:"Union Pacific Railroad Company" },
@@ -126,7 +123,6 @@ export const CROSSINGS = [
   { id:1604, fraId:"741461E", name:"11Th Avenue Crossing", road:"11Th Avenue, Phoenix", city:"Phoenix", corridor:"UP", lat:33.442353, lng:-112.086938, notes:"Union Pacific Railroad Company" },
   { id:1605, fraId:"741819Y", name:"North Gilbert Road Crossing", road:"North Gilbert Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.352768, lng:-111.789633, notes:"Union Pacific Railroad Company" },
   { id:1607, fraId:"741814P", name:"North Mcqueen Road Crossing", road:"North Mcqueen Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.374549, lng:-111.824742, notes:"Union Pacific Railroad Company" },
-  { id:1608, fraId:"741832M", name:"South Recker Road Crossing", road:"South Recker Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.299466, lng:-111.703774, notes:"Union Pacific Railroad Company" },
   { id:1612, fraId:"741477B", name:"4Th Street Crossing", road:"4Th Street, Phoenix", city:"Phoenix", corridor:"UP", lat:33.444232, lng:-112.068685, notes:"Union Pacific Railroad Company" },
   { id:1613, fraId:"741538P", name:"36Th Street Crossing", road:"36Th Street, Phoenix", city:"Phoenix", corridor:"UP", lat:33.444262, lng:-112.003739, notes:"Union Pacific Railroad Company" },
   { id:1616, fraId:"741824V", name:"East Warner Road Crossing", road:"East Warner Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.335661, lng:-111.762064, notes:"Union Pacific Railroad Company" },
@@ -143,7 +139,6 @@ export const CROSSINGS = [
   { id:1642, fraId:"741536B", name:"32 Nd Street Crossing", road:"32 Nd Street, Phoenix", city:"Phoenix", corridor:"UP", lat:33.444276, lng:-112.012911, notes:"Union Pacific Railroad Company" },
   { id:1645, fraId:"922180W", name:"East Ray Road Crossing", road:"East Ray Road, Gilbert", city:"Gilbert", corridor:"UP", lat:33.321542, lng:-111.73932, notes:"Union Pacific Railroad Company" },
   { id:1646, fraId:"741570H", name:"Baseline Road Crossing", road:"Baseline Road, Tempe", city:"Tempe", corridor:"UP", lat:33.37822, lng:-111.943478, notes:"Union Pacific Railroad Company" },
-  { id:1650, fraId:"411019C", name:"Frye Road Crossing", road:"Frye Road, Chandler", city:"Chandler", corridor:"UP", lat:33.298062, lng:-111.962423, notes:"Union Pacific Railroad Company" },
   { id:1654, fraId:"025716A", name:"Reems Rd Crossing", road:"Reems Rd, Glendale", city:"Glendale", corridor:"BNSF", lat:33.566231, lng:-112.393573, notes:"BNSF Railway Company" },
   { id:1656, fraId:"025720P", name:"Sarival Rd Crossing", road:"Sarival Rd, Glendale", city:"Glendale", corridor:"BNSF", lat:33.566488, lng:-112.409607, notes:"BNSF Railway Company" },
   { id:1659, fraId:"741492D", name:"Lincoln 6Th Street Crossing", road:"Lincoln 6Th Street, Phoenix", city:"Phoenix", corridor:"UP", lat:33.442185, lng:-112.066431, notes:"Union Pacific Railroad Company" },
@@ -168,6 +163,5 @@ export const CROSSINGS = [
   { id:1695, fraId:"748334C", name:"Roosevelt Street Crossing", road:"Roosevelt Street, Phoenix", city:"Phoenix", corridor:"UP", lat:33.460822, lng:-112.164799, notes:"Union Pacific Railroad Company" },
   { id:1696, fraId:"971751W", name:"West Tonto Street Crossing", road:"West Tonto Street, Tolleson", city:"Tolleson", corridor:"UP", lat:33.4381, lng:-112.267418, notes:"Union Pacific Railroad Company" },
   { id:1697, fraId:"741568G", name:"Southern Avenue Crossing", road:"Southern Avenue, Tempe", city:"Tempe", corridor:"UP", lat:33.392814, lng:-111.943512, notes:"Union Pacific Railroad Company" },
-  { id:1699, fraId:"920154A", name:"Morelos Place Crossing", road:"Morelos Place, Chandler", city:"Chandler", corridor:"UP", lat:33.292792, lng:-111.962835, notes:"Union Pacific Railroad Company" },
 ];
 export const CITIES = [...new Set(CROSSINGS.map(c=>c.city))].sort();
