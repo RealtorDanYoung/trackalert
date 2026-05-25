@@ -94,7 +94,7 @@ export default function App() {
 
     const map = new mapboxgl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/mapbox/dark-v11',
+      style: 'mapbox://styles/mapbox/satellite-streets-v12',
       center: [-112.0740, 33.4484],
       zoom: 9,
       attributionControl: false,
